@@ -1,0 +1,1024 @@
+######################################################
+####     Step 2: Get the Organization ID          ####
+######################################################
+
+https://api.meraki.com/api/v1/organizations
+Response status: 200
+[
+  {
+    "id": "681155",
+    "name": "DeLab",
+    "url": "https://n392.meraki.com/o/49Gm_c/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583536",
+    "name": "TNF - The Network Factory",
+    "url": "https://n22.meraki.com/o/K5Faybw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "573083052582914605",
+    "name": "Jacks_test_net",
+    "url": "https://n18.meraki.com/o/22Uqhas/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "549236",
+    "name": "DevNet Sandbox",
+    "url": "https://n149.meraki.com/o/-t35Mb/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583264",
+    "name": "My organization",
+    "url": "https://n22.meraki.com/o/aLMnNaw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583237",
+    "name": "Xirg",
+    "url": "https://n22.meraki.com/o/ZF92zcw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583213",
+    "name": "\"New Network\"",
+    "url": "https://n22.meraki.com/o/IJQKjbw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "573083052582914233",
+    "name": "Test_org",
+    "url": "https://n18.meraki.com/o/TY6awbs/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583197",
+    "name": "The New Org",
+    "url": "https://n22.meraki.com/o/wXe-Faw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583158",
+    "name": "Testlab",
+    "url": "https://n22.meraki.com/o/AvGDGdw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583134",
+    "name": "Wotan",
+    "url": "https://n22.meraki.com/o/U3paXbw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583133",
+    "name": "test-test",
+    "url": "https://n22.meraki.com/o/NBowlcw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583131",
+    "name": "thienbao",
+    "url": "https://n22.meraki.com/o/dADP-cw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583128",
+    "name": "trungheo",
+    "url": "https://n22.meraki.com/o/XjvDBcw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583093",
+    "name": "The Org",
+    "url": "https://n22.meraki.com/o/yotmJcw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583071",
+    "name": "PM_Test",
+    "url": "https://n22.meraki.com/o/lUmuUdw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583051",
+    "name": "trung",
+    "url": "https://n22.meraki.com/o/4lFkacw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396583031",
+    "name": "My organization",
+    "url": "https://n22.meraki.com/o/N1e3qdw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396582986",
+    "name": "DevNet Test Org",
+    "url": "https://n22.meraki.com/o/yZVJIcw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396582973",
+    "name": "DevNet Test Org",
+    "url": "https://n22.meraki.com/o/4ApTKbw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396582756",
+    "name": "Personal.Lekhnath",
+    "url": "https://n22.meraki.com/o/HjSXiaw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396582755",
+    "name": "My organization",
+    "url": "https://n22.meraki.com/o/LwDcydw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396582738",
+    "name": "My organization",
+    "url": "https://n22.meraki.com/o/wzbgjbw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396582684",
+    "name": "SVR",
+    "url": "https://n22.meraki.com/o/rMNradw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "566327653141842188",
+    "name": "DevNetAssoc",
+    "url": "https://n6.meraki.com/o/dcGsWag/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "575334852396582591",
+    "name": "Ftreqah organization",
+    "url": "https://n22.meraki.com/o/Kpj8kdw/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "52636",
+    "name": "Forest City - Other",
+    "url": "https://n42.meraki.com/o/E_utnd/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "865776",
+    "name": "Cisco Live US 2019",
+    "url": "https://n22.meraki.com/o/CVQqTb/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  },
+  {
+    "id": "463308",
+    "name": "dev ",
+    "url": "https://n18.meraki.com/o/vB2D8a/manage/organization/overview",
+    "api": {
+      "enabled": true
+    }
+  }
+]
+######################################################
+#### Step 3: Get the networks in the organization ####
+######################################################
+
+https://api.meraki.com/api/v1/organizations/681155/networks
+Response status: 200
+[
+  {
+    "id": "L_566327653141843049",
+    "organizationId": "681155",
+    "name": "Lyoli",
+    "productTypes": [
+      "appliance",
+      "camera",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "America/New_York",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/Lyoli-switch/n/kjwRabg/manage/usage/list",
+    "notes": ""
+  },
+  {
+    "id": "L_566327653141846927",
+    "organizationId": "681155",
+    "name": "Vegas Apartment",
+    "productTypes": [
+      "appliance",
+      "camera",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/Vegas-Apartment-/n/YreSWdg/manage/usage/list",
+    "notes": ""
+  },
+  {
+    "id": "L_566327653141856854",
+    "organizationId": "681155",
+    "name": "DNEAlertsNet",
+    "productTypes": [
+      "appliance",
+      "camera",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "US/Pacific",
+    "tags": [
+      "tag1",
+      "tag2"
+    ],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/DNEAlertsNet-swi/n/vUktkag/manage/usage/list",
+    "notes": ""
+  },
+  {
+    "id": "L_783626335162466320",
+    "organizationId": "681155",
+    "name": "DevNetLab",
+    "productTypes": [
+      "appliance",
+      "camera",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [
+      "tag1"
+    ],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/DevNetLab-applia/n/xaNlkcig/manage/usage/list",
+    "notes": null
+  },
+  {
+    "id": "L_783626335162466514",
+    "organizationId": "681155",
+    "name": "DevNetLab2",
+    "productTypes": [
+      "appliance",
+      "cellularGateway",
+      "environmental",
+      "sensor",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/DevNetLab2-switc/n/selmycig/manage/usage/list",
+    "notes": null
+  },
+  {
+    "id": "L_783626335162466515",
+    "organizationId": "681155",
+    "name": "DevNetLab3",
+    "productTypes": [
+      "appliance",
+      "cellularGateway",
+      "environmental",
+      "sensor",
+      "switch",
+      "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/DevNetLab3-wirel/n/e5u4ibig/manage/usage/list",
+    "notes": null
+  },
+  {
+    "id": "N_566327653141899127",
+    "organizationId": "681155",
+    "name": "Nolan",
+    "productTypes": [
+      "wireless"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/Nolan/n/9qi_yag/manage/usage/list",
+    "notes": ""
+  },
+  {
+    "id": "N_566327653141902646",
+    "organizationId": "681155",
+    "name": "Lyoli MDM",
+    "productTypes": [
+      "systemsManager"
+    ],
+    "timeZone": "America/Los_Angeles",
+    "tags": [],
+    "enrollmentString": null,
+    "url": "https://n392.meraki.com/Lyoli-MDM/n/-JaAJcg/manage/usage/list",
+    "notes": null
+  }
+]
+######################################################
+####      Step 4: Get the devices in a network    ####
+######################################################
+
+https://api.meraki.com/api/v1/networks/L_566327653141843049/devices
+Response status: 200
+[
+  {
+    "lat": 37.4180951010362,
+    "lng": -122.098531723022,
+    "address": "",
+    "serial": "Q2SW-SWQ2-HZ9L",
+    "mac": "ac:17:c8:24:4f:68",
+    "wan1Ip": "192.168.1.74",
+    "wan2Ip": null,
+    "tags": [
+      "recently-added"
+    ],
+    "url": "https://n392.meraki.com/Lyoli-appliance/n/6X278ag/manage/nodes/new_list/189218142048104",
+    "networkId": "L_566327653141843049",
+    "name": "BigCat",
+    "model": "MX250",
+    "firmware": "wired-15-44",
+    "floorPlanId": null
+  },
+  {
+    "lat": 37.4180951010362,
+    "lng": -122.098531723022,
+    "address": "",
+    "serial": "Q2QW-W2W4-MCNR",
+    "mac": "34:56:fe:88:c2:f8",
+    "lanIp": "192.168.128.8",
+    "tags": [
+      "recently-added"
+    ],
+    "url": "https://n392.meraki.com/Lyoli-switch/n/kjwRabg/manage/nodes/new_list/57548242207480",
+    "networkId": "L_566327653141843049",
+    "name": "Big Office Switch",
+    "model": "MS250-48FP",
+    "switchProfileId": null,
+    "firmware": "switch-12-28",
+    "floorPlanId": null
+  },
+  {
+    "lat": 37.4180951010362,
+    "lng": -122.098531723022,
+    "address": "",
+    "serial": "Q2HP-WEUW-2PQD",
+    "mac": "e0:55:3d:d2:48:3f",
+    "lanIp": "192.168.128.90",
+    "url": "https://n392.meraki.com/Lyoli-switch/n/kjwRabg/manage/nodes/new_list/246656714033215",
+    "networkId": "L_566327653141843049",
+    "tags": [],
+    "name": "Bedroom Switch",
+    "model": "MS220-8P",
+    "switchProfileId": null,
+    "firmware": "switch-12-28",
+    "floorPlanId": null
+  },
+  {
+    "lat": 37.4180951010362,
+    "lng": -122.098531723022,
+    "address": "",
+    "serial": "Q2HP-225A-XA5C",
+    "mac": "e0:55:3d:d2:4b:4c",
+    "lanIp": "192.168.128.206",
+    "url": "https://n392.meraki.com/Lyoli-switch/n/kjwRabg/manage/nodes/new_list/246656714033996",
+    "networkId": "L_566327653141843049",
+    "tags": [],
+    "name": "Basement switch",
+    "model": "MS220-8P",
+    "switchProfileId": null,
+    "firmware": "switch-12-28",
+    "floorPlanId": null
+  },
+  {
+    "lat": 41.4767987071101,
+    "lng": -81.5780361515379,
+    "address": "",
+    "serial": "Q2LD-GYL3-KEHX",
+    "mac": "e0:55:3d:c0:76:f4",
+    "lanIp": "192.168.128.202",
+    "tags": [
+      "LTV"
+    ],
+    "url": "https://n392.meraki.com/Lyoli-wireless/n/WdPtFdg/manage/nodes/new_list/246656712865524",
+    "networkId": "L_566327653141843049",
+    "beaconIdParams": {
+      "uuid": "a543206b-7dc8-44d0-9d72-1d43d92aafd4",
+      "major": 2,
+      "minor": 1
+    },
+    "name": "1st Floor AP",
+    "model": "MR52",
+    "firmware": "wireless-27-7-1",
+    "floorPlanId": null
+  },
+  {
+    "lat": 41.4768218172221,
+    "lng": -81.5779959184027,
+    "address": "",
+    "serial": "Q2LD-AN9B-S6AJ",
+    "mac": "e0:55:3d:c0:5e:2e",
+    "lanIp": "192.168.128.15",
+    "tags": [
+      "KTV"
+    ],
+    "url": "https://n392.meraki.com/Lyoli-wireless/n/WdPtFdg/manage/nodes/new_list/246656712859182",
+    "networkId": "L_566327653141843049",
+    "beaconIdParams": {
+      "uuid": "a543206b-7dc8-44d0-9d72-1d43d92aafd4",
+      "major": 2,
+      "minor": 1
+    },
+    "name": "2nd Floor AP",
+    "model": "MR52",
+    "firmware": "Not running configured version",
+    "floorPlanId": null
+  },
+  {
+    "lat": 41.30627,
+    "lng": -81.61507,
+    "address": "",
+    "serial": "Q2EK-UKGM-XSD9",
+    "mac": "e0:55:3d:10:5e:b2",
+    "lanIp": "192.168.128.99",
+    "tags": [
+      "recently-added"
+    ],
+    "url": "https://n392.meraki.com/Lyoli-wireless/n/WdPtFdg/manage/nodes/new_list/246656701324978",
+    "networkId": "L_566327653141843049",
+    "beaconIdParams": {
+      "uuid": "a543206b-7dc8-44d0-9d72-1d43d92aafd4",
+      "major": 2,
+      "minor": 1
+    },
+    "name": "Sun Room",
+    "model": "MR84",
+    "firmware": "wireless-27-7-1",
+    "floorPlanId": null
+  },
+  {
+    "lat": 41.476801721473,
+    "lng": -81.5779744607306,
+    "address": "",
+    "serial": "Q2LD-ZWCZ-UA77",
+    "mac": "e0:55:3d:c0:72:d8",
+    "lanIp": "192.168.128.16",
+    "url": "https://n392.meraki.com/Lyoli-wireless/n/WdPtFdg/manage/nodes/new_list/246656712864472",
+    "networkId": "L_566327653141843049",
+    "tags": [],
+    "beaconIdParams": {
+      "uuid": "a543206b-7dc8-44d0-9d72-1d43d92aafd4",
+      "major": 2,
+      "minor": 1
+    },
+    "name": "Office AP",
+    "model": "MR52",
+    "firmware": "wireless-27-7-1",
+    "floorPlanId": null
+  },
+  {
+    "lat": 41.4768238267966,
+    "lng": -81.5780643147326,
+    "address": "",
+    "serial": "Q2LD-3Y7V-7Y2X",
+    "mac": "e0:55:3d:c0:73:56",
+    "lanIp": "192.168.128.17",
+    "url": "https://n392.meraki.com/Lyoli-wireless/n/WdPtFdg/manage/nodes/new_list/246656712864598",
+    "networkId": "L_566327653141843049",
+    "tags": [],
+    "beaconIdParams": {
+      "uuid": "a543206b-7dc8-44d0-9d72-1d43d92aafd4",
+      "major": 2,
+      "minor": 1
+    },
+    "name": "Basement AP",
+    "model": "MR52",
+    "firmware": "wireless-27-7-1",
+    "floorPlanId": null
+  }
+]
+######################################################
+####        Step 5: Get network information       ####
+######################################################
+
+https://api.meraki.com/api/v1/networks/L_566327653141843049
+Response status: 200
+{
+  "id": "L_566327653141843049",
+  "organizationId": "681155",
+  "productTypes": [
+    "appliance",
+    "switch",
+    "wireless"
+  ],
+  "url": "https://n392.meraki.com/Lyoli-camera/n/kmekocg/manage/usage/list",
+  "name": "Lyoli",
+  "timeZone": "America/New_York",
+  "enrollmentString": null,
+  "tags": [],
+  "notes": ""
+}
+######################################################
+####       Step 6: Get device information         ####
+######################################################
+
+https://api.meraki.com/api/v1/networks/L_566327653141843049/devices/Q2SW-SWQ2-HZ9L
+Response status: 200
+{
+  "lat": 37.4180951010362,
+  "lng": -122.098531723022,
+  "address": "",
+  "serial": "Q2SW-SWQ2-HZ9L",
+  "mac": "ac:17:c8:24:4f:68",
+  "wan1Ip": "192.168.1.74",
+  "wan2Ip": null,
+  "tags": [
+    "recently-added"
+  ],
+  "url": "https://n392.meraki.com/Lyoli-appliance/n/6X278ag/manage/nodes/new_list/189218142048104",
+  "networkId": "L_566327653141843049",
+  "name": "BigCat",
+  "model": "MX250",
+  "firmware": "wired-15-44",
+  "floorPlanId": null
+}
+######################################################
+####        Step 7: Get SSID information          ####
+######################################################
+
+https://api.meraki.com/api/v1/networks/L_566327653141843049/wireless/ssids
+Response status: 200
+[
+  {
+    "number": 0,
+    "name": "Lyoli",
+    "enabled": true,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "psk",
+    "psk": "Tac0s7426P1zza",
+    "dot11w": {
+      "enabled": false,
+      "required": false
+    },
+    "dot11r": {
+      "enabled": false,
+      "adaptive": false
+    },
+    "encryptionMode": "wpa",
+    "wpaEncryptionMode": "WPA1 and WPA2",
+    "ipAssignmentMode": "Bridge mode",
+    "useVlanTagging": false,
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "lanIsolationEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 1,
+    "name": "Lyoli Outdoor",
+    "enabled": false,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "psk",
+    "psk": "Tac0s7426P1zza",
+    "dot11w": {
+      "enabled": false,
+      "required": false
+    },
+    "dot11r": {
+      "enabled": false,
+      "adaptive": false
+    },
+    "encryptionMode": "wpa",
+    "wpaEncryptionMode": "WPA1 and WPA2",
+    "ipAssignmentMode": "Bridge mode",
+    "useVlanTagging": false,
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "lanIsolationEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 2,
+    "name": "Captive Portal Demo",
+    "enabled": false,
+    "splashPage": "Click-through splash page",
+    "ssidAdminAccessible": false,
+    "authMode": "psk",
+    "psk": "waytogodevs",
+    "dot11w": {
+      "enabled": false,
+      "required": false
+    },
+    "dot11r": {
+      "enabled": false,
+      "adaptive": false
+    },
+    "encryptionMode": "wpa",
+    "wpaEncryptionMode": "WPA2 only",
+    "ipAssignmentMode": "Bridge mode",
+    "useVlanTagging": false,
+    "adminSplashUrl": "https://afddd0244900.ngrok.io/click",
+    "splashTimeout": "30 minutes",
+    "walledGardenEnabled": true,
+    "walledGardenRanges": [
+      "*.ngrok.io"
+    ],
+    "minBitrate": 11,
+    "bandSelection": "5 GHz band only",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "lanIsolationEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 3,
+    "name": "KTV",
+    "enabled": true,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "psk",
+    "psk": "boomshakalaka",
+    "dot11w": {
+      "enabled": false,
+      "required": false
+    },
+    "dot11r": {
+      "enabled": false,
+      "adaptive": false
+    },
+    "encryptionMode": "wpa",
+    "wpaEncryptionMode": "WPA2 only",
+    "ipAssignmentMode": "Bridge mode",
+    "useVlanTagging": false,
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "lanIsolationEnabled": false,
+    "visible": false,
+    "availableOnAllAps": false,
+    "availabilityTags": [
+      "ktv"
+    ]
+  },
+  {
+    "number": 4,
+    "name": "LTV",
+    "enabled": true,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "psk",
+    "psk": "tvconnect",
+    "dot11w": {
+      "enabled": false,
+      "required": false
+    },
+    "dot11r": {
+      "enabled": false,
+      "adaptive": false
+    },
+    "encryptionMode": "wpa",
+    "wpaEncryptionMode": "WPA1 and WPA2",
+    "ipAssignmentMode": "Bridge mode",
+    "useVlanTagging": false,
+    "minBitrate": 1,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "lanIsolationEnabled": false,
+    "visible": false,
+    "availableOnAllAps": false,
+    "availabilityTags": [
+      "ltv"
+    ]
+  },
+  {
+    "number": 5,
+    "name": "testv",
+    "enabled": false,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "open",
+    "ipAssignmentMode": "NAT mode",
+    "adultContentFilteringEnabled": false,
+    "dnsRewrite": {
+      "enabled": false,
+      "dnsCustomNameservers": []
+    },
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 6,
+    "name": "Unconfigured SSID 7",
+    "enabled": false,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "open",
+    "ipAssignmentMode": "NAT mode",
+    "adultContentFilteringEnabled": false,
+    "dnsRewrite": {
+      "enabled": false,
+      "dnsCustomNameservers": []
+    },
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 7,
+    "name": "Unconfigured SSID 8",
+    "enabled": false,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "open",
+    "ipAssignmentMode": "NAT mode",
+    "adultContentFilteringEnabled": false,
+    "dnsRewrite": {
+      "enabled": false,
+      "dnsCustomNameservers": []
+    },
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 8,
+    "name": "Unconfigured SSID 9",
+    "enabled": false,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "open",
+    "ipAssignmentMode": "NAT mode",
+    "adultContentFilteringEnabled": false,
+    "dnsRewrite": {
+      "enabled": false,
+      "dnsCustomNameservers": []
+    },
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 9,
+    "name": "Unconfigured SSID 10",
+    "enabled": false,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "open",
+    "ipAssignmentMode": "NAT mode",
+    "adultContentFilteringEnabled": false,
+    "dnsRewrite": {
+      "enabled": false,
+      "dnsCustomNameservers": []
+    },
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 10,
+    "name": "Unconfigured SSID 11",
+    "enabled": false,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "open",
+    "ipAssignmentMode": "NAT mode",
+    "adultContentFilteringEnabled": false,
+    "dnsRewrite": {
+      "enabled": false,
+      "dnsCustomNameservers": []
+    },
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 11,
+    "name": "Unconfigured SSID 12",
+    "enabled": false,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "open",
+    "ipAssignmentMode": "NAT mode",
+    "adultContentFilteringEnabled": false,
+    "dnsRewrite": {
+      "enabled": false,
+      "dnsCustomNameservers": []
+    },
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 12,
+    "name": "Unconfigured SSID 13",
+    "enabled": false,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "open",
+    "ipAssignmentMode": "NAT mode",
+    "adultContentFilteringEnabled": false,
+    "dnsRewrite": {
+      "enabled": false,
+      "dnsCustomNameservers": []
+    },
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 13,
+    "name": "Unconfigured SSID 14",
+    "enabled": false,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "open",
+    "ipAssignmentMode": "NAT mode",
+    "adultContentFilteringEnabled": false,
+    "dnsRewrite": {
+      "enabled": false,
+      "dnsCustomNameservers": []
+    },
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  },
+  {
+    "number": 14,
+    "name": "Unconfigured SSID 15",
+    "enabled": false,
+    "splashPage": "None",
+    "ssidAdminAccessible": false,
+    "authMode": "open",
+    "ipAssignmentMode": "NAT mode",
+    "adultContentFilteringEnabled": false,
+    "dnsRewrite": {
+      "enabled": false,
+      "dnsCustomNameservers": []
+    },
+    "minBitrate": 11,
+    "bandSelection": "Dual band operation",
+    "perClientBandwidthLimitUp": 0,
+    "perClientBandwidthLimitDown": 0,
+    "perSsidBandwidthLimitUp": 0,
+    "perSsidBandwidthLimitDown": 0,
+    "mandatoryDhcpEnabled": false,
+    "visible": true,
+    "availableOnAllAps": true,
+    "availabilityTags": []
+  }
+]
